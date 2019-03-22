@@ -1,0 +1,23 @@
+{
+  "name": "@musicode/pattern-parser",
+  "version": "0.0.1",
+  "description": "pattern parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musicode/pattern-parser.git"
+  },
+  "keywords": [
+    "pattern",
+    "parser"
+  ],
+  "author": "musicode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/musicode/pattern-parser/issues"
+  },
+  "homepage": "https://github.com/musicode/pattern-parser#readme"
+}
