@@ -43,8 +43,12 @@ export function parse(str: string, pattern: RegExp, title?: string): Array<Token
   let index = 0
   let match: RegExpExecArray
   while (match = pattern.exec(str)) {
+    if (match.index > 0) {
+      result.push(
+        new Token(str.substr(0, match.index))
+      )
+    }
     result.push(
-      new Token(str.substr(0, match.index)),
       new Token(title || match[0], match[0])
     )
     index = match.index + match[0].length

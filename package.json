@@ -1,6 +1,6 @@
 {
   "name": "@musicode/pattern-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pattern parser",
   "main": "index.js",
   "scripts": {
